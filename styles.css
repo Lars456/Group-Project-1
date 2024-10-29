@@ -48,3 +48,13 @@ header{
     border-radius: 30px;
     color: beige;
 }
+
+.sculpt-img {
+    width: 300px;
+    height: auto;
+}
+
+.lake-img {
+    width: 300px;
+    height: auto;
+}
