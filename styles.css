@@ -12,3 +12,13 @@
 a{
     text-decoration: none;
 }
+header{
+    width: 100vh;
+    height: 100vh;
+    background-image: url('./img/Venise-fotor-min.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
