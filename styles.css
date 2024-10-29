@@ -15,7 +15,7 @@ a{
 header{
     width: 100vh;
     height: 100vh;
-    background-image: url('./img/Venise-fotor-min.png');
+    background-image: url('./img/colloseum.jpg');
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -26,4 +26,20 @@ header{
     margin-bottom: 150px;
     color:beige;
     text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: red;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
 }
