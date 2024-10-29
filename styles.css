@@ -1,65 +1,50 @@
 /* styles.css */
+/* Google Font */
 
-/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+a{
+    text-decoration: none;
+}
+header{
+    width: 100vh;
+    height: 100vh;
+    background-image: url('./img/colloseum.jpg');
+    background-position: bottom;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: center;
 }
-
-/* Header styling */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+.header-content{
+    margin-bottom: 150px;
+    color:beige;
     text-align: center;
 }
-
-/* Main content styling */
-main {
-    flex: 1;
-    padding: 1.5rem;
-    max-width: 800px;
-    margin: 0 auto;
+.header-content h2{
+    font-size: 4vmin;
 }
-
-h1, h2 {
-    margin-bottom: 1rem;
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(196, 63, 63);
+    margin: 10px auto;
+    border-radius: 5px;
 }
-
-p {
-    margin-bottom: 1rem;
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
-
-/* Footer styling */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 0.75rem;
-}
-
-/* Basic responsive styling */
-@media (max-width: 600px) {
-    body {
-        font-size: 0.9rem;
-    }
-
-    header, footer {
-        padding: 0.5rem;
-    }
-
-    main {
-        padding: 1rem;
-    }
+.ctn{
+    padding: 8px 15px;
+    background: rgb(196, 63, 63);
+    border-radius: 30px;
+    color: beige;
 }
