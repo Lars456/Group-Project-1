@@ -22,3 +22,8 @@ header{
     align-items: flex-end;
     justify-content: center;
 }
+.header-content{
+    margin-bottom: 150px;
+    color:beige;
+    text-align: center;
+}
