@@ -33,7 +33,7 @@ header{
 .line{
     width: 150px;
     height: 4px;
-    background: red;
+    background: rgb(196, 63, 63);
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -41,5 +41,10 @@ header{
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
-    
+}
+.ctn{
+    padding: 8px 15px;
+    background: rgb(196, 63, 63);
+    border-radius: 30px;
+    color: beige;
 }
