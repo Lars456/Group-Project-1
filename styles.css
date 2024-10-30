@@ -60,7 +60,7 @@ header{
 }
 
 @media (max-width: 760px) {
-    .sculpt.img, lake.img {
+    .sculpt.img, .lake.img {
         width: 100%;
     }
 }
