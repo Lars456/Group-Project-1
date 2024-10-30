@@ -49,18 +49,7 @@ header{
     color: beige;
 }
 
-.sculpt-img {
-    width: 300px;
+.sculpt-img, .lake-img {
+    width: 200px;
     height: auto;
-}
-
-.lake-img {
-    width: 400px;
-    height: auto;
-}
-
-@media (max-width: 760px) {
-    .sculpt.img, .lake.img {
-        width: 100%;
-    }
 }
