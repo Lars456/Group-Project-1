@@ -9,10 +9,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-header{
+
+header {
     width: 100vh;
     height: 100vh;
     background-image: url('./img/colloseum.jpg');
@@ -22,27 +24,32 @@ header{
     align-items: flex-end;
     justify-content: center;
 }
-.header-content{
+
+.header-content {
     margin-bottom: 150px;
     color:beige;
     text-align: center;
 }
-.header-content h2{
+
+.header-content h2 {
     font-size: 4vmin;
 }
-.line{
+
+.line {
     width: 150px;
     height: 4px;
     background: rgb(196, 63, 63);
     margin: 10px auto;
     border-radius: 5px;
 }
-.header-content h1{
+
+.header-content h1 {
     font-size: 7vmin;
     margin-top: 50px;
     margin-bottom: 30px;
 }
-.ctn{
+
+.ctn {
     padding: 8px 15px;
     background: rgb(196, 63, 63);
     border-radius: 30px;
