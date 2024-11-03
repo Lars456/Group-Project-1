@@ -32,7 +32,7 @@ Deliverables:
 ●  A design for mobile screen (less than 600px in width)
 
 ## How to view website
-website link goes here
+(https://capable-jelly-e3d14f.netlify.app/)
 
 ## How to tweak this project for your own uses
 I encourage you to clone and rename this project for your own use, it's a good outline to follow
