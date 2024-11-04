@@ -19,17 +19,17 @@ about a music group, sports team, tourist destination or anything related to cli
 change.
 Each team is 2 members only.
 Deliverables:
-● GitHub repo
-● deployment to the web via Netlify or Render
-● a report
-● Sticky navbar is required
-● Using pseudo-classes/pseudo-elements required (at least, 8 distinct ones!)
-● Using Google Font is required
-● It needs to use primarily Flexbox layout [Grid is also fine!]
-● you can use box model for a single component obviously
-● Footer required
-●  A design for large screens such as your laptop/tablet
-●  A design for mobile screen (less than 600px in width)
+- **GitHub repo**
+- **deployment to the web via Netlify or Render**
+- **a report**
+- **Sticky navbar is required**
+- **Using pseudo-classes/pseudo-elements required (at least, 8 distinct ones!)**
+- **Using Google Font is required**
+- **It needs to use primarily Flexbox layout [Grid is also fine!]**
+- **you can use box model for a single component obviously**
+- **Footer required**
+- **A design for large screens such as your laptop/tablet**
+- **A design for mobile screen (less than 600px in width)**
 
 ## How to view website
 https://exploreitalygroup.netlify.app/
