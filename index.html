@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Explore Italia</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <nav class="navbar">
-        <h1 class="logo"></h1>
+    <nav>
+        <a href="#" class="logo">Travel</a>
         <ul class="nav-links">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="active"><a href="#">Tours</a></li>
-            <li class="active"><a href="#">Explore</a></li>
-            <li class="active"><a href="#">About</a></li>
-            <li class="active"><a href="#">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
         <img src="./img/menu-svgrepo-com.svg" alt="" class="menu-btn">
     </nav>
@@ -34,15 +35,15 @@
         </div>
         <div class="row">
             <div class="col">
-                <img src="./img/venice.png" alt="">
+                <video id="VeniceVid" src="./img/venizia.mov" muted loop></video>
                 <h4> Venice </h4>
-                <p> This city showcases the enginuity and perseverence Venecian people.</p>
+                <p id="description"> This city showcases the enginuity and perseverence Venezian people.</p>
                 <a href="#" class="ctn">Learn More</a>
             </div>
             <div class="col">
-                <img src="./img/como.png" alt="">
+                <video id="comoVid" src="./img/como.mov" muted loop></video>
                 <h4>Lake Como</h4>
-                <p>One of the greenest, most iconic lakes in Italy.</p>
+                <p id="description">One of the greenest, most iconic lakes in Italy.</p>
                 <a href="#" class="ctn">Learn More</a>
             </div>
         </div>
@@ -60,7 +61,7 @@
             <div class="col content-col">
                 <h1> TOURS & DESTINATIONS</h1>
                 <div class = "line"></div>
-                <p> Tours of all kinds available ranging from food tours, vertical train rides, visiting old churches, iconic sculptures, etc.</p>
+                <p id="description"> Tours of all kinds available ranging from food tours, vertical train rides, visiting old churches, iconic sculptures, etc.</p>
                 <a href="#" class="ctn">Learn More</a>
             </div>
             <div class="col image-col">
@@ -86,3 +87,4 @@
     </script>
 </body>
 </html>
+
